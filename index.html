@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <body>
+    <div class="main-container">
+      <div class="alert-container">
+        <img class="background-image" />
+        <div id="alert" class="alert">
+          <h4></h4>
+          <span onclick="closeAlert(this)">x</span>
+        </div>
+        <div id="info" class="alert">
+          <h6>
+            Click to read more about Premium and how to buy a membership plan
+          </h6>
+          <span onclick="closeAlert(this)">x</span>
+        </div>
+        <nav>
+          <div>
+            <h4>VanHack Events</h4>
+          </div>
+        </nav>
+      </div>
+      <nav class="sticky">
+        <div id="navbar">
+          <ul></ul>
+        </div>
+      </nav>
+
+      <div>
+        <section class="container"></section>
+        <div id="modal" class="modal-window"></div>
+      </div>
+
+      <footer>
+        <p>c VanHack</p>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
